@@ -26,7 +26,7 @@ python main_train.py --cuda
 
 If you do not have enough GPU memory, you can pass the `--checkpoint` option to enable the checkpoint container in PyTorch >= 0.4. For other configuration, such as batch size and learning rate, please check the ArgumentParser in [RedNet_train.py](RedNet_train.py).
 
-For inference, you should run the [RedNet_inference.py](RedNet_inference.py) like this,
+For inference, you should run the inference code like this,
 
 ```
 python inference.py --cuda
